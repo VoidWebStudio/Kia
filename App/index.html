@@ -7,25 +7,35 @@
     <meta name="format-detection" content="telephone=no">
     <title>Kia</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="container-fliud">
-      <div class="container">
+      <div class="hamburger" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="overlay js-overlay-campaign">
+        <div class="popup js-popup-campaign">
+          <h1>Получите все выгоды!</h1>
+          <form>
+            <input type="tel" placeholder="Введите Номер">
+            <button class="popup-button">получить кредит</button>
+          </form>
+          <p>Нажав на кнопку "Отправить заявку", я даю согласие на обработку моих персональных данных и получение рекламных предложений. С условиями обработки персональных данных и получения предложений - ознакомлен и согласен.</p>
+          <div class="close-popup js-close-campaign"></div>
+        </div>
+      </div>
+      <div class="container" id="nav-menu">
         <div class="nav">
           <div class="offer-header">
-            <div class="logo"><img src="img/logo.png"></div>
-            <div class="adress"><img src="img/location_icon.svg" alt="icon">
-              <p>Краснодар, Тургеневское шоссе, 25</p>
-            </div>
-            <div class="hamburger" onclick="myFunction(this)">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </div>
+            <div class="logo"><a href="#"><img src="img/logo.png"></a></div>
+            <div class="adress"><img src="img/location_icon.svg" alt="icon"><a href="https://yandex.ru/maps/-/CGDk5DMV" target="_blank">Краснодар, Тургеневское шоссе, 25</a></div>
           </div>
           <div class="offer-text">
             <h1>Только до конца октября<span><br>масштабные выгоды</span><br>  на весь модельный ряд!</h1>
-            <div class="offer-button"><a class="btn" href="#">Забрать выгоду</a></div>
+            <div class="offer-button"><a class="btn btn-popup" href="#">Забрать выгоду</a></div>
           </div>
           <div class="offer-menu">
             <h2>Подберите свой KIA</h2>
@@ -54,7 +64,7 @@
         </div>
         <div class="credit">
           <div class="credit-header">
-            <div class="credit-button"><a href="#">заказать звонок</a></div>
+            <div class="credit-button"><a class="btn-popup" href="#">заказать звонок</a></div>
             <div class="kia-logo"><img src="img/logo_kia.png" alt="Kia Logo"></div>
           </div>
           <div class="credit-image"><img src="img/car-image.png" alt="Cars"></div>
@@ -65,13 +75,12 @@
           <div class="credit-input">
             <form>
               <input type="tel" placeholder="Введите Номер">
-              <button class="form-button">получить кредит</button>
+              <button class="form-button btn-popup">получить кредит</button>
             </form>
           </div>
         </div>
       </div>
     </div>
-    <script src="scripts/main.js"></script>
     <div class="container-fluid">
       <div class="container-rio">
         <div class="kia-xline">
@@ -85,7 +94,7 @@
             <div class="gift__h1">
               <h1>Выгода до 60 000 руб.</h1>
             </div>
-            <div class="button"><a class="firstbtn" href="#">В кредит за 3 500 р./мес</a><a class="secondbtn" href="#">Получить выгоду</a><a class="thirdbtn" href="#">Cпецпредложение</a></div>
+            <div class="button"><a class="firstbtn btn-popup" href="#">В кредит за 3 500 р./мес</a><a class="secondbtn btn-popup" href="#">Получить выгоду</a><a class="thirdbtn btn-popup" href="#">Cпецпредложение</a></div>
           </div>
         </div>
         <div class="kia-ceed">
@@ -99,7 +108,7 @@
             <div class="gift__h1">
               <h1>Выгода до 60 000 руб.</h1>
             </div>
-            <div class="button"><a class="firstbtn" href="#">В кредит за 3 500 р./мес</a><a class="secondbtn" href="#">Получить выгоду</a><a class="thirdbtn" href="#">Cпецпредложение</a></div>
+            <div class="button"><a class="firstbtn btn-popup" href="#">В кредит за 3 500 р./мес</a><a class="secondbtn btn-popup" href="#">Получить выгоду</a><a class="thirdbtn btn-popup" href="#">Cпецпредложение</a></div>
           </div>
         </div>
       </div>
@@ -113,7 +122,7 @@
             <p>Краснодар Тургеневское шоссе,25</p><a href="tel:+78612123492">+7(861)-212-34-92</a>
             <form>
               <input type="tel" placeholder="Введите телефон">
-              <div class="call">
+              <div class="call btn-popup">
                 <button>ЗАКАЗАТЬ ЗВОНОК</button>
               </div>
             </form>
@@ -121,5 +130,6 @@
         </div>
       </div>
     </div>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

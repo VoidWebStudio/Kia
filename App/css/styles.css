@@ -25,6 +25,7 @@
   display: flex;
   padding-left: 39px; }
   .gift__logo p {
+    font-family: "KIAM";
     padding-left: 11px; }
 
 .gift__logo img {
@@ -33,6 +34,7 @@
 
 .gift__h1 h1 {
   width: 100%;
+  font-family: "KIA";
   font-size: 18px;
   line-height: 30px;
   color: #a30606;
@@ -41,6 +43,7 @@
   padding-left: 39px; }
 
 .gift p {
+  font-family: "KIAM";
   font-size: 14px;
   line-height: 16px;
   color: #000000; }
@@ -64,7 +67,7 @@
   background-color: #ffffff;
   border: 1px solid #a30606;
   color: #a30606;
-  font-family: "K IA M"; }
+  font-family: "KIAM"; }
 
 .button .secondbtn {
   width: 220px;
@@ -126,6 +129,7 @@
   height: auto;
   padding-bottom: 30px; }
   .myBlock p {
+    font-family: "KIAM";
     padding-left: 11px; }
 
 @font-face {
@@ -144,7 +148,8 @@
 .kia-ceed {
   display: -webkit-box;
   display: -webkit-flex;
-  display: flex; }
+  display: flex;
+  padding-bottom: 20px; }
 
 .kia__rio img {
   width: 296px;
@@ -175,6 +180,30 @@
     display: -webkit-box;
     display: -webkit-flex;
     display: flex; } }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container-rio {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .kia-xline {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important; }
+  .kia-ceed {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .container-rio {
@@ -216,10 +245,12 @@
   align-items: center;
   width: 100%;
   max-width: 1178px;
+  height: 100%;
   margin: auto; }
 
 .contacts {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   height: 300px;
   background-color: #a30606;
   position: absolute;
@@ -246,13 +277,14 @@
   text-transform: uppercase; }
 
 .contacts a {
+  font-family: "KIAM";
   color: white;
   margin-left: 20px; }
 
 .contacts p {
   width: 551px;
   font-size: 16px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   line-height: 36px;
   color: #ffffff;
   font-family: "KIAM";
@@ -279,7 +311,7 @@ form {
   letter-spacing: 0px;
   line-height: 20px;
   color: #ff9393;
-  font-family: "K IA M";
+  font-family: "KIAM";
   padding-left: 20px; }
 
 ::-moz-placeholder {
@@ -289,7 +321,7 @@ form {
   letter-spacing: 0px;
   line-height: 20px;
   color: #ff9393;
-  font-family: "K IA M";
+  font-family: "KIAM";
   padding-left: 20px; }
 
 :-ms-input-placeholder {
@@ -299,7 +331,7 @@ form {
   letter-spacing: 0px;
   line-height: 20px;
   color: #ff9393;
-  font-family: "K IA M";
+  font-family: "KIAM";
   padding-left: 20px; }
 
 ::-ms-input-placeholder {
@@ -309,7 +341,7 @@ form {
   letter-spacing: 0px;
   line-height: 20px;
   color: #ff9393;
-  font-family: "K IA M";
+  font-family: "KIAM";
   padding-left: 20px; }
 
 ::placeholder {
@@ -319,10 +351,11 @@ form {
   letter-spacing: 0px;
   line-height: 20px;
   color: #ff9393;
-  font-family: "K IA M";
+  font-family: "KIAM";
   padding-left: 20px; }
 
 .call {
+  font-family: "KIAM";
   padding-top: 10px;
   font-size: 14px;
   line-height: 30px; }
@@ -346,6 +379,45 @@ input {
   height: 42px;
   outline: none;
   padding-left: 20px; }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .map {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    position: static; }
+  .contacts {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    order: -1;
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    text-align: center !important; }
+    .contacts h1 {
+      width: 100%;
+      margin: 0 !important; }
+    .contacts p {
+      width: 100%;
+      margin: 0 !important; } }
 
 * {
   margin: 0;
@@ -381,19 +453,24 @@ input {
         -webkit-box-align: center;
         -webkit-align-items: center;
         align-items: center;
-        padding-right: 48px; }
+        padding-right: 48px !important; }
         .container-fliud .container .nav .offer-header .adress {
           width: 100%;
           max-width: 220px;
           display: -webkit-box;
           display: -webkit-flex;
           display: flex; }
-        .container-fliud .container .nav .offer-header p {
-          padding-left: 10px;
+        .container-fliud .container .nav .offer-header a {
+          text-decoration: none;
+          padding-left: 8px;
           font-family: "KIA";
           font-size: 1em;
           line-height: 1.2em;
           color: white; }
+        .container-fliud .container .nav .offer-header a:active, .container-fliud .container .nav .offer-header :link, .container-fliud .container .nav .offer-header :visited {
+          color: #fff; }
+        .container-fliud .container .nav .offer-header a:hover {
+          color: #cd7f7f; }
       .container-fliud .container .nav .offer-text {
         width: 100%;
         display: -webkit-box;
@@ -629,14 +706,18 @@ input {
           -webkit-box-shadow: 0px 0px 9px 0px #a30606;
           box-shadow: 0px 0px 9px 0px #a30606; }
 
+.menu-on {
+  display: block !important; }
+
 .hamburger {
   display: none;
-  cursor: pointer; }
+  cursor: pointer;
+  padding-left: 10px; }
 
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #ffffff;
   margin: 6px 0;
   -webkit-transition: 0.4s;
   transition: 0.4s; }
@@ -644,7 +725,8 @@ input {
 /* Rotate first bar */
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px); }
+  transform: rotate(-45deg) translate(-9px, 6px);
+  background-color: #a30606; }
 
 /* Fade out the second bar */
 .change .bar2 {
@@ -653,7 +735,8 @@ input {
 /* Rotate last bar */
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px); }
+  transform: rotate(45deg) translate(-8px, -8px);
+  background-color: #a30606; }
 
 @font-face {
   font-family: 'KIA';
@@ -693,7 +776,110 @@ input {
     height: 100%;
     right: 0; } }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  z-index: 999999; }
+  .overlay h1 {
+    font-size: 24px;
+    line-height: 48px;
+    color: #000000;
+    font-family: "KIA";
+    text-align: center;
+    padding-bottom: 30px; }
+  .overlay p {
+    width: 294px;
+    font-size: 10px;
+    line-height: 11px;
+    color: #d8d8d8;
+    font-family: "KIAM";
+    text-align: center; }
+  .overlay form {
+    margin: 0 auto;
+    padding: 0; }
+  .overlay input {
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 10px; }
+  .overlay ::-webkit-input-placeholder {
+    color: #d8d8d8; }
+  .overlay ::-moz-placeholder {
+    color: #d8d8d8; }
+  .overlay :-ms-input-placeholder {
+    color: #d8d8d8; }
+  .overlay ::-ms-input-placeholder {
+    color: #d8d8d8; }
+  .overlay ::placeholder {
+    color: #d8d8d8; }
+  .overlay button {
+    background-color: #a30606;
+    color: white;
+    margin-bottom: 10px; }
+
+.popup {
+  position: absolute;
+  width: 427px;
+  height: 317px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.close-popup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer; }
+
+.close-popup:before {
+  content: '';
+  background-color: #d8d8d8;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  left: -4px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.close-popup:after {
+  content: '';
+  background-color: #d8d8d8;
+  position: absolute;
+  height: 1px;
+  width: 31px;
+  top: 11px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: -4px; }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container-fliud {
     background-image: url("../img/bg-header-mob.png"); }
   .container {
@@ -769,10 +955,10 @@ input {
       -webkit-box-pack: center !important;
       -webkit-justify-content: center !important;
       justify-content: center !important;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      margin: auto !important; }
+      -webkit-box-align: center !important;
+      -webkit-align-items: center !important;
+      align-items: center !important;
+      margin: 0 auto !important; }
     .credit-input input {
       margin-bottom: 10px !important; }
   .credit-image img {
@@ -780,11 +966,103 @@ input {
     width: 70%;
     margin: auto; } }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .container-fliud {
+    background-image: url("../img/bg-header-mob.png"); }
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  .offer-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0 !important;
+    padding-bottom: 10px !important; }
+    .offer-text span {
+      font-size: 25px !important;
+      text-align: center; }
+    .offer-text .offer-button {
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      justify-content: center !important; }
+  .offer-menu {
+    width: 100% !important;
+    max-width: 100% !important;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 0 !important; }
+    .offer-menu ul:last-child {
+      padding-left: 25px !important; }
+  .nav {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important; }
+  .credit {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    padding-top: 50px !important; }
+  .credit-header {
+    -webkit-justify-content: space-around !important;
+    justify-content: space-around !important; }
+  .credit-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  .credit-input {
+    width: 100% !important;
+    max-width: 100% !important; }
+    .credit-input form {
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: column !important;
+      flex-direction: column !important;
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      justify-content: center !important;
+      -webkit-box-align: center !important;
+      -webkit-align-items: center !important;
+      align-items: center !important;
+      margin: auto !important; }
+    .credit-input input {
+      margin-bottom: 10px !important; }
+  .credit-image img {
+    position: static !important;
+    width: 70%;
+    margin: auto; }
+  .popup {
+    width: 100%;
+    height: 100vh;
+    font-size: 15px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #nav-menu {
+    display: none; }
   .nav {
     background-color: #a30606; }
-  .offer-text, .offer-menu, .credit {
-    display: none !important; }
   .offer-header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -793,5 +1071,87 @@ input {
     -webkit-box-direction: normal !important;
     -webkit-flex-direction: column !important;
     flex-direction: column !important; }
+    .offer-header .logo {
+      padding-bottom: 10px; }
+  .credit-header {
+    padding-left: 0 !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important;
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    align-items: center !important; }
+    .credit-header .kia-logo {
+      display: none !important; }
+  .credit-text {
+    padding-left: 0 !important;
+    text-align: center; }
+    .credit-text h1 {
+      font-size: 25px !important; }
+    .credit-text p {
+      font-size: 20px !important; }
+  .credit-input {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important; }
+    .credit-input form {
+      padding-left: 0 !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: column !important;
+      flex-direction: column !important;
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      justify-content: center !important;
+      -webkit-box-align: center !important;
+      -webkit-align-items: center !important;
+      align-items: center !important; }
+    .credit-input input {
+      margin-bottom: 10px !important; }
+  .menu-items {
+    float: none;
+    display: block;
+    text-align: left; }
   .hamburger {
-    display: inline-block; } }
+    display: inline-block;
+    width: 100%; }
+  .offer-text {
+    text-align: center; }
+    .offer-text h1 {
+      font-size: 20px !important; }
+    .offer-text span {
+      font-size: 25px !important; }
+    .offer-text .offer-button {
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      justify-content: center !important;
+      -webkit-box-align: center !important;
+      -webkit-align-items: center !important;
+      align-items: center !important;
+      width: 50% !important; }
+  .offer-menu {
+    text-align: center; }
+    .offer-menu .menu-list {
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: column !important;
+      flex-direction: column !important;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      text-align: center; }
+    .offer-menu ul:first-child {
+      padding: 0 !important; }
+    .offer-menu ul:last-child {
+      padding: 0 !important; }
+  .popup {
+    width: 100%;
+    height: 100vh;
+    font-size: 15px; } }

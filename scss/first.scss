@@ -21,6 +21,7 @@
   display: flex;
   padding-left: 39px;
   p{
+    font-family: "KIAM";
     padding-left: 11px;
   }
 }
@@ -30,6 +31,7 @@
 }
 .gift__h1 h1{
   width: 100%;
+  font-family: "KIA";
   font-size: 18px;
   line-height: 30px;
   color: #a30606;
@@ -40,6 +42,7 @@
 
 
 .gift p {
+  font-family: "KIAM";
   font-size: 14px;
   line-height: 16px;
   color: #000000;
@@ -58,7 +61,7 @@
    background-color: #ffffff;
    border: 1px solid #a30606;
   color: #a30606;
-  font-family: "K IA M";
+  font-family: "KIAM";
  }
 .button .secondbtn {
   width: 220px;
@@ -112,6 +115,7 @@
   height: auto;
   padding-bottom: 30px;
   p{
+    font-family: "KIAM";
     padding-left: 11px;
   }
 }
@@ -132,6 +136,7 @@
 }
 .kia-ceed{
   display: flex;
+  padding-bottom: 20px;
 }
 
 .kia__rio img{
@@ -156,6 +161,23 @@
     display: flex;
   }
 }
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .container-rio{
+    flex-direction: column!important;
+    margin: auto!important;
+    justify-content: center;
+    align-items: center;
+  }
+  .kia-xline{
+    flex-direction: column!important;
+  }
+  .kia-ceed{
+    flex-direction: column!important;
+  }
+
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .container-rio{
     flex-direction: column!important;
