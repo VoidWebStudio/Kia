@@ -1,0 +1,797 @@
+.container-rio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  padding-top: 50px;
+  width: 100%;
+  max-height: 1178px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.kia__rio h1 {
+  width: 100%;
+  max-width: 371px;
+  font-size: 30px;
+  line-height: 60px;
+  padding-bottom: 10px;
+  color: #000000;
+  font-family: "KIA"; }
+
+.gift__logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 39px; }
+  .gift__logo p {
+    padding-left: 11px; }
+
+.gift__logo img {
+  width: 3em;
+  height: 3em; }
+
+.gift__h1 h1 {
+  width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a30606;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 39px; }
+
+.gift p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000; }
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+  padding-left: 39px; }
+
+.button .firstbtn {
+  width: 220px;
+  height: 43px;
+  background-color: #ffffff;
+  border: 1px solid #a30606;
+  color: #a30606;
+  font-family: "K IA M"; }
+
+.button .secondbtn {
+  width: 220px;
+  height: 43px;
+  background-color: #a30606;
+  color: #ffffff; }
+
+.button .thirdbtn {
+  width: 220px;
+  height: 43px;
+  background-color: #333333;
+  color: #ffffff; }
+
+.button a {
+  width: 220px;
+  height: 36px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "KIAM";
+  text-align: center;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.button .firstbtn:hover {
+  background-color: red;
+  color: #ffffff; }
+
+.button .secondbtn:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black; }
+
+.button .firstbtn:hover {
+  background-color: red; }
+
+.button a:first-child {
+  margin-bottom: 9px; }
+
+.button a:last-child {
+  margin-top: 9px; }
+
+.myBlock {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 30px; }
+  .myBlock p {
+    padding-left: 11px; }
+
+@font-face {
+  font-family: 'KIA';
+  src: url("../fonts/KIAB.eot");
+  src: local("KIAB"), url("../fonts/KIAB.eot?#iefix") format("embedded-opentype"), url("../fonts/KIAB.woff") format("woff"), url("../fonts/KIAB.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+.kia-xline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-right: 20px; }
+
+.kia-ceed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex; }
+
+.kia__rio img {
+  width: 296px;
+  height: 177px;
+  margin-left: 10px; }
+
+.colortext {
+  color: #a30606; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-rio {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .kia-xline {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex; }
+  .kia-ceed {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container-rio {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .kia-xline {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important; }
+  .kia-ceed {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important; } }
+
+.container-fluid {
+  width: 100%;
+  overflow: hidden; }
+
+.container-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1178px;
+  margin: auto; }
+
+.contacts {
+  width: 900px;
+  height: 300px;
+  background-color: #a30606;
+  position: absolute;
+  border-color: red;
+  right: -372px;
+  top: 30px; }
+
+.map {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative; }
+
+.contacts h1 {
+  width: 551px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "KIAM";
+  padding-top: 20px;
+  margin-left: 20px;
+  text-transform: uppercase; }
+
+.contacts a {
+  color: white;
+  margin-left: 20px; }
+
+.contacts p {
+  width: 551px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 36px;
+  color: #ffffff;
+  font-family: "KIAM";
+  margin-left: 20px; }
+
+form {
+  width: 100%;
+  max-width: 293px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 25px;
+  line-height: 30px; }
+
+::-webkit-input-placeholder {
+  width: 228px;
+  height: 25px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ff9393;
+  font-family: "K IA M";
+  padding-left: 20px; }
+
+::-moz-placeholder {
+  width: 228px;
+  height: 25px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ff9393;
+  font-family: "K IA M";
+  padding-left: 20px; }
+
+:-ms-input-placeholder {
+  width: 228px;
+  height: 25px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ff9393;
+  font-family: "K IA M";
+  padding-left: 20px; }
+
+::-ms-input-placeholder {
+  width: 228px;
+  height: 25px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ff9393;
+  font-family: "K IA M";
+  padding-left: 20px; }
+
+::placeholder {
+  width: 228px;
+  height: 25px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #ff9393;
+  font-family: "K IA M";
+  padding-left: 20px; }
+
+.call {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 30px; }
+
+button {
+  width: 100%;
+  max-width: 293px;
+  height: 42px;
+  color: #a30606;
+  font-family: "K IA B";
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  outline: none; }
+
+input {
+  background-color: #a30606;
+  border: 1px solid #ffffff;
+  width: 100%;
+  max-width: 293px;
+  height: 42px;
+  outline: none;
+  padding-left: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container-fliud {
+  width: 100%;
+  background-image: url("../img/bg-header.png");
+  background-size: cover;
+  background-position: center; }
+  .container-fliud .container {
+    width: 100%;
+    max-width: 1178px;
+    height: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex; }
+    .container-fliud .container .nav {
+      width: 100%;
+      max-width: 509px;
+      height: 100%;
+      padding-top: 20px; }
+      .container-fliud .container .nav .offer-header {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        padding-right: 48px; }
+        .container-fliud .container .nav .offer-header .adress {
+          width: 100%;
+          max-width: 220px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex; }
+        .container-fliud .container .nav .offer-header p {
+          padding-left: 10px;
+          font-family: "KIA";
+          font-size: 1em;
+          line-height: 1.2em;
+          color: white; }
+      .container-fliud .container .nav .offer-text {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        padding-top: 75px;
+        padding-bottom: 56px;
+        position: relative;
+        z-index: 3; }
+        .container-fliud .container .nav .offer-text h1 {
+          width: 100%;
+          font-family: "KIA";
+          font-size: 30px;
+          line-height: 60px;
+          color: white;
+          padding-bottom: 10px; }
+          .container-fliud .container .nav .offer-text h1 span {
+            font-size: 45px;
+            text-transform: uppercase; }
+        .container-fliud .container .nav .offer-text .offer-button {
+          width: 100%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: start;
+          -webkit-justify-content: flex-start;
+          justify-content: flex-start; }
+        .container-fliud .container .nav .offer-text .btn {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          background-color: white;
+          width: 100%;
+          max-width: 283px;
+          height: 61px;
+          font-family: "KIA";
+          font-size: 18px;
+          line-height: 60px;
+          text-decoration: none;
+          text-transform: uppercase; }
+        .container-fliud .container .nav .offer-text .btn:active, .container-fliud .container .nav .offer-text :link, .container-fliud .container .nav .offer-text :visited {
+          color: #a30606; }
+        .container-fliud .container .nav .offer-text .btn:hover {
+          color: #fff;
+          background-color: #a3000e;
+          -webkit-box-shadow: 2px -4px 38px 0px black;
+          box-shadow: 2px -4px 38px 0px black; }
+      .container-fliud .container .nav .offer-menu {
+        width: 100%;
+        max-width: 440px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 44px; }
+        .container-fliud .container .nav .offer-menu h2 {
+          font-family: "KIA";
+          font-size: 24px;
+          line-height: 60px;
+          color: #fefefe;
+          padding-bottom: 30px; }
+        .container-fliud .container .nav .offer-menu .menu-list {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          justify-content: space-between; }
+        .container-fliud .container .nav .offer-menu ul {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+          flex-direction: column;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex; }
+          .container-fliud .container .nav .offer-menu ul a {
+            font-family: 'KIAM';
+            font-size: 1em;
+            line-height: 30px;
+            text-decoration: none; }
+          .container-fliud .container .nav .offer-menu ul a:active, .container-fliud .container .nav .offer-menu ul :link, .container-fliud .container .nav .offer-menu ul :visited {
+            color: #fff; }
+          .container-fliud .container .nav .offer-menu ul a:hover {
+            color: #cd7f7f; }
+        .container-fliud .container .nav .offer-menu ul:first-child {
+          padding-right: 25px; }
+    .container-fliud .container .credit {
+      width: 100%; }
+      .container-fliud .container .credit .credit-header {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 28px;
+        padding-left: 31px; }
+        .container-fliud .container .credit .credit-header .credit-button a {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          width: 219px;
+          height: 54px;
+          background-color: #a30606;
+          font-size: 16px;
+          line-height: 60px;
+          color: white;
+          text-decoration: none;
+          text-transform: uppercase; }
+        .container-fliud .container .credit .credit-header .credit-button a:active, .container-fliud .container .credit .credit-header .credit-button :link, .container-fliud .container .credit .credit-header .credit-button :visited {
+          color: #fff; }
+        .container-fliud .container .credit .credit-header .credit-button a:hover {
+          background-color: #fff;
+          color: #a30606;
+          -webkit-box-shadow: 0px 0px 9px 0px #a30606;
+          box-shadow: 0px 0px 9px 0px #a30606; }
+      .container-fliud .container .credit .credit-image {
+        width: 100%;
+        height: 420px;
+        max-width: 1035px;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+        .container-fliud .container .credit .credit-image img {
+          width: 100%;
+          height: 100%;
+          max-height: 420px;
+          max-width: 1035px;
+          position: absolute;
+          right: 9%;
+          z-index: auto; }
+      .container-fliud .container .credit .credit-text {
+        padding-top: 90px;
+        padding-left: 45px; }
+        .container-fliud .container .credit .credit-text h1 {
+          font-size: 48px;
+          line-height: 36px;
+          color: #000000;
+          font-family: "KIA"; }
+        .container-fliud .container .credit .credit-text p {
+          padding-top: 12px;
+          font-size: 20px;
+          line-height: 36px;
+          color: #000000;
+          font-family: "KIA"; }
+      .container-fliud .container .credit .credit-input {
+        padding-top: 46px;
+        padding-left: 20px;
+        width: 100%; }
+        .container-fliud .container .credit .credit-input form {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+          width: 100%;
+          max-width: 629px !important;
+          margin: 0 !important; }
+        .container-fliud .container .credit .credit-input input {
+          width: 100%;
+          max-width: 297px;
+          height: 47px;
+          background-color: white;
+          border: 1px solid #d0d0d0;
+          margin: 0; }
+        .container-fliud .container .credit .credit-input ::-webkit-input-placeholder {
+          padding-left: 16px;
+          color: #d0d0d0; }
+        .container-fliud .container .credit .credit-input ::-moz-placeholder {
+          padding-left: 16px;
+          color: #d0d0d0; }
+        .container-fliud .container .credit .credit-input :-ms-input-placeholder {
+          padding-left: 16px;
+          color: #d0d0d0; }
+        .container-fliud .container .credit .credit-input ::-ms-input-placeholder {
+          padding-left: 16px;
+          color: #d0d0d0; }
+        .container-fliud .container .credit .credit-input ::placeholder {
+          padding-left: 16px;
+          color: #d0d0d0; }
+        .container-fliud .container .credit .credit-input .form-button {
+          width: 100%;
+          max-width: 295px;
+          height: 47px;
+          background-color: #a30606;
+          color: white;
+          border: none;
+          outline: none;
+          font-size: 16px;
+          line-height: 30px;
+          font-family: "KIAM";
+          text-align: center;
+          cursor: pointer; }
+        .container-fliud .container .credit .credit-input .form-button:hover {
+          background-color: #fff;
+          color: #a30606;
+          -webkit-box-shadow: 0px 0px 9px 0px #a30606;
+          box-shadow: 0px 0px 9px 0px #a30606; }
+
+.hamburger {
+  display: none;
+  cursor: pointer; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px); }
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0; }
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px); }
+
+@font-face {
+  font-family: 'KIA';
+  src: url("../fonts/KIAB.eot");
+  src: local("KIAB"), url("../fonts/KIAB.eot?#iefix") format("embedded-opentype"), url("../fonts/KIAB.woff") format("woff"), url("../fonts/KIAB.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'KIAM';
+  src: url("../fonts/KIAM.eot");
+  src: local("KIAM"), url("../fonts/KIAM.eot?#iefix") format("embedded-opentype"), url("../fonts/KIAM.woff") format("woff"), url("../fonts/KIAM.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .offer-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center; }
+    .offer-text span {
+      font-size: 25px !important;
+      text-align: center; }
+    .offer-text .offer-button {
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      justify-content: center !important; }
+  .credit-image img {
+    position: static !important;
+    height: 100%;
+    right: 0; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-fliud {
+    background-image: url("../img/bg-header-mob.png"); }
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  .offer-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0 !important;
+    padding-bottom: 10px !important; }
+    .offer-text span {
+      font-size: 25px !important;
+      text-align: center; }
+    .offer-text .offer-button {
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      justify-content: center !important; }
+  .offer-menu {
+    width: 100% !important;
+    max-width: 100% !important;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 0 !important; }
+    .offer-menu ul:last-child {
+      padding-left: 25px !important; }
+  .nav {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important; }
+  .credit {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important; }
+  .credit-header {
+    -webkit-justify-content: space-around !important;
+    justify-content: space-around !important; }
+  .credit-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  .credit-input {
+    width: 100% !important;
+    max-width: 100% !important; }
+    .credit-input form {
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: column !important;
+      flex-direction: column !important;
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      justify-content: center !important;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      margin: auto !important; }
+    .credit-input input {
+      margin-bottom: 10px !important; }
+  .credit-image img {
+    position: static !important;
+    width: 70%;
+    margin: auto; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav {
+    background-color: #a30606; }
+  .offer-text, .offer-menu, .credit {
+    display: none !important; }
+  .offer-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important; }
+  .hamburger {
+    display: inline-block; } }

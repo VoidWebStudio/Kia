@@ -1,0 +1,172 @@
+.container-rio {
+  display: flex;
+  height: 100%;
+  padding-top: 50px;
+  width: 100%;
+  max-height: 1178px;
+  justify-content: center;
+
+}
+
+.kia__rio h1 {
+  width: 100%;
+  max-width: 371px;
+  font-size: 30px;
+  line-height: 60px;
+  padding-bottom: 10px;
+  color: #000000;
+  font-family: "KIA";
+}
+.gift__logo {
+  display: flex;
+  padding-left: 39px;
+  p{
+    padding-left: 11px;
+  }
+}
+.gift__logo img {
+  width: 3em;
+  height: 3em;
+}
+.gift__h1 h1{
+  width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a30606;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 39px;
+}
+
+
+.gift p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 39px;
+
+}
+.button .firstbtn{
+   width: 220px;
+   height: 43px;
+   background-color: #ffffff;
+   border: 1px solid #a30606;
+  color: #a30606;
+  font-family: "K IA M";
+ }
+.button .secondbtn {
+  width: 220px;
+  height: 43px;
+  background-color: #a30606;
+  color:#ffffff;
+}
+.button .thirdbtn {
+  width: 220px;
+  height: 43px;
+  background-color: #333333;
+  color:#ffffff;
+}
+.button a {
+  width: 220px;
+  height: 36px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "KIAM";
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.button .firstbtn:hover{
+  background-color: red;
+  color:#ffffff;
+}
+.button .secondbtn:hover{
+  background-color:#ffffff;
+  color: black;
+  border: 1px solid black;
+
+}
+.button .firstbtn:hover{
+  background-color: red;
+}
+.button a:first-child{
+  margin-bottom: 9px;
+}
+.button a:last-child{
+  margin-top: 9px;
+}
+.myBlock {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 30px;
+  p{
+    padding-left: 11px;
+  }
+}
+
+@font-face {
+  font-family: 'KIA';
+  src: url('../fonts/KIAB.eot');
+  src: local('KIAB'),
+  url('../fonts/KIAB.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/KIAB.woff') format('woff'),
+  url('../fonts/KIAB.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+.kia-xline{
+  display: flex;
+  padding-right: 20px;
+}
+.kia-ceed{
+  display: flex;
+}
+
+.kia__rio img{
+  width:296px;
+  height: 177px;
+  margin-left: 10px;
+}
+.colortext{
+  color: #a30606;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-rio{
+    flex-direction: column!important;
+    margin: auto!important;
+    justify-content: center;
+    align-items: center;
+  }
+  .kia-xline{
+    display: flex;
+  }
+  .kia-ceed{
+    display: flex;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .container-rio{
+    flex-direction: column!important;
+    margin: auto!important;
+    justify-content: center;
+    align-items: center;
+  }
+  .kia-xline{
+    flex-direction: column!important;
+  }
+  .kia-ceed{
+    flex-direction: column!important;
+  }
+}
