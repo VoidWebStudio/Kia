@@ -23,3 +23,6 @@ $(document).mouseup(function (e) {
 
     }
 });
+if($(window).width() < 1920){
+    $('.credit-image img').right -='1%';
+}

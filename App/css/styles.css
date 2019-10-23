@@ -429,7 +429,8 @@ input {
   width: 100%;
   background-image: url("../img/bg-header.png");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  position: relative; }
   .container-fliud .container {
     width: 100%;
     max-width: 1178px;
@@ -462,7 +463,7 @@ input {
           display: flex; }
         .container-fliud .container .nav .offer-header a {
           text-decoration: none;
-          padding-left: 8px;
+          padding-left: 5px !important;
           font-family: "KIA";
           font-size: 1em;
           line-height: 1.2em;
@@ -631,8 +632,7 @@ input {
           max-height: 420px;
           max-width: 1035px;
           position: absolute;
-          right: 9%;
-          z-index: auto; }
+          right: 7%; }
       .container-fliud .container .credit .credit-text {
         padding-top: 90px;
         padding-left: 45px; }
@@ -879,6 +879,33 @@ input {
   transform: rotate(45deg);
   left: -4px; }
 
+@media only screen and (min-width: 1281px) and (max-width: 1399px) {
+  .credit-image img {
+    right: 0 !important;
+    left: 34%; } }
+
+@media only screen and (min-width: 1400px) and (max-width: 1499px) {
+  .credit-image img {
+    right: 0 !important;
+    left: 34%; } }
+
+@media only screen and (min-width: 1500px) and (max-width: 1599px) {
+  .credit-image img {
+    right: 0 !important;
+    left: 35%; } }
+
+@media only screen and (min-width: 1600px) and (max-width: 1699px) {
+  .credit-image img {
+    right: 2% !important; } }
+
+@media only screen and (min-width: 1700px) and (max-width: 1799px) {
+  .credit-image img {
+    right: 4.5% !important; } }
+
+@media only screen and (min-width: 1800px) and (max-width: 1919px) {
+  .credit-image img {
+    right: 6% !important; } }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container-fliud {
     background-image: url("../img/bg-header-mob.png"); }
@@ -1073,6 +1100,8 @@ input {
     flex-direction: column !important; }
     .offer-header .logo {
       padding-bottom: 10px; }
+  .credit-image img {
+    position: static !important; }
   .credit-header {
     padding-left: 0 !important;
     -webkit-box-orient: vertical !important;
